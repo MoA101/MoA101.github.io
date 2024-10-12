@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures full height */
+    margin: 0;
+    }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Montserrat" , sans-serif;
+    font-size: 24px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+    font-size: 16px;
+}
+
+.uni {
+    font-family: "Montserrat" , sans-serif;
+}
+
+.button {
+    display: block; 
+    width: 100%; 
+    padding: 8px; 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    cursor: pointer; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 15px; 
+    text-decoration: none; 
+}
+
+.button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+a:link .fa-linkedin {
+    color: #0e76a8; 
+  }
+  
+a:visited .fa-linkedin {
+    color: #0e76a8; 
+  }
+
+a:hover .fa-linkedin {
+    color: #005582; 
+  }
+  
+  
